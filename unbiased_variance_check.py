@@ -44,5 +44,5 @@ if __name__ == "__main__":
     
     # 結果を出力
     print(f"母分散：{POPULATION.get_variance():.2f}")
-    print(f"標本分散の平均値：{sample_variance_average:.2f} (相対誤差：{sample_variance_error * 100:.2f})")
-    print(f"不偏標本分散の平均値：{unbiased_sample_variance_average:.2f} (相対誤差：{unbiased_sample_variance_error * 100:.2f})")
+    print(f"標本分散の平均値：{sample_variance_average:.2f} (相対誤差：{sample_variance_error * 100:.2f}%)")
+    print(f"不偏標本分散の平均値：{unbiased_sample_variance_average:.2f} (相対誤差：{unbiased_sample_variance_error * 100:.2f}%)")
